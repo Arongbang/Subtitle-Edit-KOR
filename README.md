@@ -1,6 +1,8 @@
 # Subtitle-Edit-KOR
 
-## SubtitleEdit 한글 변환 Template 파일
+## 파일 설명
+
+### SubtitleEdit 한글 변환 Template 파일
 
 ## 사용법
 
