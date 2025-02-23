@@ -48,6 +48,20 @@
         <Description>ㅈ - 젖꼭지</Description>
               
       </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>(더 보기\.|^더\.$)</FindWhat>
+                
+        <ReplaceWith>좀 더.</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅈ - 좀 더</Description>
+              
+      </MultipleSearchAndReplaceItem>
           
     </Group>
         

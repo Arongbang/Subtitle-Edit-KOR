@@ -90,6 +90,20 @@
         <Description>Convert &quot;가득 채워줄게.&quot; → &quot;잔뜩 하자.&quot;</Description>
               
       </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>(마사지)(?:\s)?하고([\,\.]+)</FindWhat>
+                
+        <ReplaceWith>$1 해줘$2</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
           
     </Group>
         

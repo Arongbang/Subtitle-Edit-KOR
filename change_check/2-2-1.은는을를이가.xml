@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<Settings>
+  <MultipleSearchAndReplaceList>
+    <Group>
+            
+      <Name>2-2-1.은/는/을/를/이/가</Name>
+            
+      <Enabled>True</Enabled>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>(위)에서는</FindWhat>
+                
+        <ReplaceWith>$1로는</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>서는-에서는 =&gt; 로는</Description>
+              
+      </MultipleSearchAndReplaceItem>
+          
+    </Group>
+        
+  </MultipleSearchAndReplaceList>
+</Settings>

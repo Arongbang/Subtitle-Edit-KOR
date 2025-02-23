@@ -11,6 +11,20 @@
                 
         <Enabled>True</Enabled>
                 
+        <FindWhat>발아</FindWhat>
+                
+        <ReplaceWith>발기</ReplaceWith>
+                
+        <SearchType>Normal</SearchType>
+                
+        <Description>ㅂ - 발기</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
         <FindWhat>마크</FindWhat>
                 
         <ReplaceWith>보지</ReplaceWith>
@@ -18,6 +32,20 @@
         <SearchType>Normal</SearchType>
                 
         <Description>ㅂ - 보지</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>(삐걱거리는 게)</FindWhat>
+                
+        <ReplaceWith>빙글빙글</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅂ - 빙글빙글</Description>
               
       </MultipleSearchAndReplaceItem>
             

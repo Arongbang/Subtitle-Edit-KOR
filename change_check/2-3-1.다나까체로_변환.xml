@@ -454,6 +454,48 @@
         <Description/>
               
       </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>(이게\s)?무슨 느낌이야\?</FindWhat>
+                
+        <ReplaceWith>느끼고 있습니까?</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>힘든 일이지요([\.\?])?</FindWhat>
+                
+        <ReplaceWith>힘듭니까?</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>이상입니다([\.\?])?</FindWhat>
+                
+        <ReplaceWith>수고했습니다.</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
           
     </Group>
         

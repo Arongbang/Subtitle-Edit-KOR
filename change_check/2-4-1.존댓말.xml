@@ -39,7 +39,21 @@
                 
         <Enabled>True</Enabled>
                 
-        <FindWhat>(않)습니까([\.\?])?</FindWhat>
+        <FindWhat>(힘)듭니까([\.\?])?(?!고|던|면)</FindWhat>
+                
+        <ReplaceWith>$1들어요$2</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>니까 - 듭니까 =&gt; 들어요</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>(않|있)습니까([\.\?])?</FindWhat>
                 
         <ReplaceWith>$1나요$2</ReplaceWith>
                 
@@ -74,6 +88,20 @@
         <SearchType>RegularExpression</SearchType>
                 
         <Description>니다 - 습니다 =&gt; 아요</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>(했)습니다([\.\?])?(?!고|던|면)</FindWhat>
+                
+        <ReplaceWith>$1어요$2</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>니다 - 습니다 =&gt; 어요</Description>
               
       </MultipleSearchAndReplaceItem>
             
@@ -221,7 +249,7 @@
                 
         <Enabled>True</Enabled>
                 
-        <FindWhat>(대단|단단|위험)하다([\.\?])?(?!고|던|면)</FindWhat>
+        <FindWhat>(피곤|대단|단단|위험)하다([\.\?])?(?!고|던|면)</FindWhat>
                 
         <ReplaceWith>$1해요$2</ReplaceWith>
                 

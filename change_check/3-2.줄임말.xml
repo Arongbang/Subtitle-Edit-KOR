@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<Settings>
+  <MultipleSearchAndReplaceList>
+    <Group>
+            
+      <Name>3-2.줄임말</Name>
+            
+      <Enabled>True</Enabled>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>(기 때문에)</FindWhat>
+                
+        <ReplaceWith>니까</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㄴ - 니까</Description>
+              
+      </MultipleSearchAndReplaceItem>
+          
+    </Group>
+      
+  </MultipleSearchAndReplaceList>
+</Settings>
