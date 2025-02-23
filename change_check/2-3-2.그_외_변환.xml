@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<Settings>
+  <MultipleSearchAndReplaceList>
+    <Group>
+            
+      <Name>2-3-2.그 외 변환</Name>
+            
+      <Enabled>True</Enabled>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>알고\!</FindWhat>
+                
+        <ReplaceWith>해!</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>Convert &quot;알고!&quot; → &quot;해!&quot;</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>씹을래\?</FindWhat>
+                
+        <ReplaceWith>키스할래?</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>Convert &quot;씹을래?&quot; → &quot;키스할래?&quot;</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>기다리고 있어요\!</FindWhat>
+                
+        <ReplaceWith>잠깐만요!</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>그렇군요\.</FindWhat>
+                
+        <ReplaceWith>그렇구나.</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>Convert &quot;그렇군요.&quot; → &quot;그렇구나.&quot;</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>것뿐인야\?</FindWhat>
+                
+        <ReplaceWith>건가?</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>Convert &quot;것뿐인야?&quot; → &quot;건가?&quot;</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>가득 채워줄게\.</FindWhat>
+                
+        <ReplaceWith>잔뜩 하자.</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>Convert &quot;가득 채워줄게.&quot; → &quot;잔뜩 하자.&quot;</Description>
+              
+      </MultipleSearchAndReplaceItem>
+          
+    </Group>
+        
+  </MultipleSearchAndReplaceList>
+</Settings>

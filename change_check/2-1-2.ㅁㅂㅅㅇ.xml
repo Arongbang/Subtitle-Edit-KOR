@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<Settings>
+  <MultipleSearchAndReplaceList>
+    <Group>
+            
+      <Name>2-1-2.ㅁㅂㅅㅇ</Name>
+            
+      <Enabled>True</Enabled>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>마크</FindWhat>
+                
+        <ReplaceWith>보지</ReplaceWith>
+                
+        <SearchType>Normal</SearchType>
+                
+        <Description>ㅂ - 보지</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>큰 거</FindWhat>
+                
+        <ReplaceWith>싼 거</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅅ - 싼 거</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>내놨더니</FindWhat>
+                
+        <ReplaceWith>쌌는데도</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅅ - 쌌는데도</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>엄청나게</FindWhat>
+                
+        <ReplaceWith>엄청</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅇ - 엄청</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>그녀</FindWhat>
+                
+        <ReplaceWith>여친</ReplaceWith>
+                
+        <SearchType>Normal</SearchType>
+                
+        <Description>ㅇ - 여친</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>형님(으)?</FindWhat>
+                
+        <ReplaceWith>오빠</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅇ - 오빠</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>피코리코(?:라고)?|삐걱삐걱</FindWhat>
+                
+        <ReplaceWith>움찔움찔</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅇ - 움찔움찔</Description>
+              
+      </MultipleSearchAndReplaceItem>
+          
+    </Group>
+        
+  </MultipleSearchAndReplaceList>
+</Settings>

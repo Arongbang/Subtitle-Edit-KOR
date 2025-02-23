@@ -1,0 +1,419 @@
+<?xml version="1.0" ?>
+<Settings>
+  <MultipleSearchAndReplaceList>
+    <Group>
+            
+      <Name>1-2.의미X 제거</Name>
+            
+      <Enabled>True</Enabled>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^이봐요(?:[\,\.]+)?(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^보세요(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^저기요(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^봐요(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^[\.\s]+</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^저기(?:[\,\.]+)?(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^맞아요(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^당신은(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^당신을(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^이봐(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^자(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^어(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^이런(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^아(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^네요(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^휴(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^그럼(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^야(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^음(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^아니(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^뭐(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^그거(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^이제(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^잠(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^더 이상(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^잠든(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^잤다(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^정말(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^잠깐(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+          
+    </Group>
+        
+  </MultipleSearchAndReplaceList>
+</Settings>

@@ -1,0 +1,251 @@
+<?xml version="1.0" ?>
+<Settings>
+  <MultipleSearchAndReplaceList>
+    <Group>
+            
+      <Name>1-1.환각 제거 (문장/단일)</Name>
+            
+      <Enabled>True</Enabled>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>\s*(?:[쭌]+(?:\.)?\s*)+</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>쭌 삭제</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^아차\.$</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>Remove &quot;아차.&quot;</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^와우\.$</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>Remove &quot;와우.&quot;</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^이런\.$</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>Remove &quot;이런.&quot;</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^이렇게\.$</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>Remove &quot;이렇게.&quot;</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^이것\.$</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>Remove &quot;이것.&quot;</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^\.{3}$</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>Remove &quot;...&quot;</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^난$</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>Remove &quot;난&quot;</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^후우\.$</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>Remove &quot;후우.&quot;</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^나$</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>Remove &quot;나&quot;</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^아[하]+\,$</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>잠시 쉬어가세요[\.]+</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>잠시 쉬어가세요[\.]+</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat> turned off</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>에서 그</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>^쉬세요(?:[\,\.]+)(\s)?</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>휴식을 취하십시오\.</FindWhat>
+                
+        <ReplaceWith/>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description/>
+              
+      </MultipleSearchAndReplaceItem>
+          
+    </Group>
+        
+  </MultipleSearchAndReplaceList>
+</Settings>

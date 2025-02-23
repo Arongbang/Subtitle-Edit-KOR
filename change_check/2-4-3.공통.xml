@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<Settings>
+  <MultipleSearchAndReplaceList>
+    <Group>
+            
+      <Name>2-4-3.공통</Name>
+            
+      <Enabled>True</Enabled>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>가버린다([\.\?])?(?!고|던|면)</FindWhat>
+                
+        <ReplaceWith>가버려$1</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>린다 - 버린다 =&gt; 가버려</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>해보자([\.\?\!])?</FindWhat>
+                
+        <ReplaceWith>하자$1</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>보자 - 보자 =&gt; 하자</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>간다\!</FindWhat>
+                
+        <ReplaceWith>가버려!</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>다 - 다 =&gt; 가버려</Description>
+              
+      </MultipleSearchAndReplaceItem>
+          
+    </Group>
+        
+  </MultipleSearchAndReplaceList>
+</Settings>
