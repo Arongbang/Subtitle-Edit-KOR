@@ -21,4 +21,4 @@
 
 
 ### 4. multiple_replace_groups.template 파일 선택
-![Image](https://github.com/user-attachments/assets/334052d0-3c2a-4023-a4bc-8d8218e3fad6)
+![Image](https://github.com/user-attachments/assets/cd0f410f-2182-48bd-8acc-8a77fd558088)
