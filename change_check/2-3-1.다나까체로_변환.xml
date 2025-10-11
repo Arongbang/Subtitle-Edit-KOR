@@ -123,7 +123,7 @@
                 
         <Enabled>True</Enabled>
                 
-        <FindWhat>(기분 나쁘다|가지고 있으면 좋다)([\.\?])?</FindWhat>
+        <FindWhat>(숨통이 트인다|기분 나쁘다|가지고 있으면 좋다)([\.\?])?</FindWhat>
                 
         <ReplaceWith>기분 좋다$2</ReplaceWith>
                 
@@ -242,6 +242,20 @@
         <SearchType>RegularExpression</SearchType>
                 
         <Description>ㄴ - 느끼고 있습니까</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>(뻑뻑하다|뻣뻣하다)([\.\?])?</FindWhat>
+                
+        <ReplaceWith>단단하다$2</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㄷ - 단단하다</Description>
               
       </MultipleSearchAndReplaceItem>
             
@@ -648,6 +662,34 @@
         <SearchType>RegularExpression</SearchType>
                 
         <Description>ㅎ - 힙듬니까</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>세리머니를 한다</FindWhat>
+                
+        <ReplaceWith>정액을 싼다</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅈ - 정액을 싼다</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>(말해버렸다)([\.\?])?(?!고|던|면|든|는)</FindWhat>
+                
+        <ReplaceWith>가버렸다$2</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㄱ - 가버렸다</Description>
               
       </MultipleSearchAndReplaceItem>
           

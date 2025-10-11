@@ -11,7 +11,7 @@
                 
         <Enabled>True</Enabled>
                 
-        <FindWhat>팅팅|틴틴|진저|찐, 찐,|찡, 찡,|고추|찐따|오마카|고추(?&gt;!장)|첸첸|온텐치|체인지|열정(이)?|오치치|거시기|성기|징징(?&gt;!거)|포키|할아버지</FindWhat>
+        <FindWhat>당근|낑낑|버섯|팅팅|틴틴|진저|찐, 찐,|찡, 찡,|고추|찐따|오마카|고추(?&gt;!장)|첸첸|온텐치|체인지|열정(이)?|오치치|거시기|성기|징징(?&gt;!거)|포키|할아버지</FindWhat>
                 
         <ReplaceWith>자지</ReplaceWith>
                 
@@ -32,6 +32,20 @@
         <SearchType>RegularExpression</SearchType>
                 
         <Description>ㅈ - 자지가</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>자지을</FindWhat>
+                
+        <ReplaceWith>자지를</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅈ - 자지를</Description>
               
       </MultipleSearchAndReplaceItem>
             
@@ -123,7 +137,7 @@
                 
         <Enabled>True</Enabled>
                 
-        <FindWhat>마음속에|손자|生死</FindWhat>
+        <FindWhat>마음속에|손자|生死|정신|정지</FindWhat>
                 
         <ReplaceWith>정자</ReplaceWith>
                 
@@ -137,13 +151,27 @@
                 
         <Enabled>True</Enabled>
                 
-        <FindWhat>징크스|집을|젖먹이|트레이처|턱(?&gt;!턱)|치크베|뺨</FindWhat>
+        <FindWhat>손목|목(?&gt;!소)|곰팡이|징크스|집을|젖먹이|트레이처|턱(?&gt;!턱)|치크베|뺨</FindWhat>
                 
         <ReplaceWith>젖꼭지</ReplaceWith>
                 
         <SearchType>RegularExpression</SearchType>
                 
         <Description>ㅈ - 젖꼭지</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>목이</FindWhat>
+                
+        <ReplaceWith>젖꼭지가</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅈ - 젖꼭지가</Description>
               
       </MultipleSearchAndReplaceItem>
             
@@ -235,7 +263,7 @@
                 
         <Enabled>True</Enabled>
                 
-        <FindWhat>차구차구(?:가)?|구찌</FindWhat>
+        <FindWhat>차구차구(?:가)?|구찌|びしょびしょ</FindWhat>
                 
         <ReplaceWith>질척질척</ReplaceWith>
                 

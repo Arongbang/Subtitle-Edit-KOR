@@ -468,6 +468,20 @@
         <Description>ㄷ - 딸치는</Description>
               
       </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>한꺼번에\.</FindWhat>
+                
+        <ReplaceWith>같이.</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㄱ - 같이.</Description>
+              
+      </MultipleSearchAndReplaceItem>
           
     </Group>
         

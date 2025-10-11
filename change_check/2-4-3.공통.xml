@@ -230,6 +230,20 @@
         <Description>ㅎ - 하고 싶어</Description>
               
       </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>(귀여운)([\!\.\?])(?!고|던|면|든|는)</FindWhat>
+                
+        <ReplaceWith>귀여워$2</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㄱ - 귀여워</Description>
+              
+      </MultipleSearchAndReplaceItem>
           
     </Group>
         

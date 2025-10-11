@@ -165,7 +165,7 @@
                 
         <Enabled>True</Enabled>
                 
-        <FindWhat>마크|망고|맨크|마이크</FindWhat>
+        <FindWhat>마크|망고|맨크|마이크|만코</FindWhat>
                 
         <ReplaceWith>보지</ReplaceWith>
                 
@@ -277,7 +277,7 @@
                 
         <Enabled>True</Enabled>
                 
-        <FindWhat>독설을</FindWhat>
+        <FindWhat>독설을|뷰뷰가</FindWhat>
                 
         <ReplaceWith>뷰릇뷰릇</ReplaceWith>
                 
@@ -473,6 +473,20 @@
                 
         <Enabled>True</Enabled>
                 
+        <FindWhat>프라모델</FindWhat>
+                
+        <ReplaceWith>속옷</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅅ - 속옷</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
         <FindWhat>어깨를 으쓱하겠</FindWhat>
                 
         <ReplaceWith>실례하겠</ReplaceWith>
@@ -480,6 +494,20 @@
         <SearchType>RegularExpression</SearchType>
                 
         <Description>ㅅ - 실례하겠</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>야다</FindWhat>
+                
+        <ReplaceWith>싫어</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅅ - 싫어</Description>
               
       </MultipleSearchAndReplaceItem>
             
@@ -501,7 +529,7 @@
                 
         <Enabled>True</Enabled>
                 
-        <FindWhat>퍼붓고</FindWhat>
+        <FindWhat>퍼붓고|뼈를 벗기고</FindWhat>
                 
         <ReplaceWith>싸고</ReplaceWith>
                 
@@ -571,6 +599,20 @@
                 
         <Enabled>True</Enabled>
                 
+        <FindWhat>\s내지\s</FindWhat>
+                
+        <ReplaceWith> 싸지 </ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅅ - 싸지</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
         <FindWhat>큰 거(?&gt;!시)</FindWhat>
                 
         <ReplaceWith>싼 거</ReplaceWith>
@@ -599,7 +641,7 @@
                 
         <Enabled>True</Enabled>
                 
-        <FindWhat>내놨더니</FindWhat>
+        <FindWhat>내놨더니|시작했는데도</FindWhat>
                 
         <ReplaceWith>쌌는데도</ReplaceWith>
                 
@@ -725,7 +767,7 @@
                 
         <Enabled>True</Enabled>
                 
-        <FindWhat>버리고</FindWhat>
+        <FindWhat>(?&lt;!벗겨)버리고</FindWhat>
                 
         <ReplaceWith>알면서도</ReplaceWith>
                 
@@ -921,6 +963,20 @@
                 
         <Enabled>True</Enabled>
                 
+        <FindWhat>기름</FindWhat>
+                
+        <ReplaceWith>오일</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅇ - 오일</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
         <FindWhat>삐끗삐끗|피코리코(?:라고)?|삐걱삐걱</FindWhat>
                 
         <ReplaceWith>움찔움찔</ReplaceWith>
@@ -942,6 +998,20 @@
         <SearchType>RegularExpression</SearchType>
                 
         <Description>ㅇ - 움찔움찔거리</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
+        <FindWhat>겁먹고</FindWhat>
+                
+        <ReplaceWith>움찔움찔거리고</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅇ - 움찔움찔거리고</Description>
               
       </MultipleSearchAndReplaceItem>
             
@@ -991,55 +1061,13 @@
                 
         <Enabled>True</Enabled>
                 
-        <FindWhat>\s내지\s</FindWhat>
+        <FindWhat>입륜</FindWhat>
                 
-        <ReplaceWith> 싸지 </ReplaceWith>
-                
-        <SearchType>RegularExpression</SearchType>
-                
-        <Description>ㅅ - 싸지</Description>
-              
-      </MultipleSearchAndReplaceItem>
-            
-      <MultipleSearchAndReplaceItem>
-                
-        <Enabled>True</Enabled>
-                
-        <FindWhat>겁먹고</FindWhat>
-                
-        <ReplaceWith>움찔움찔거리고</ReplaceWith>
+        <ReplaceWith>유륜</ReplaceWith>
                 
         <SearchType>RegularExpression</SearchType>
                 
-        <Description>ㅇ - 움찔움찔거리고</Description>
-              
-      </MultipleSearchAndReplaceItem>
-            
-      <MultipleSearchAndReplaceItem>
-                
-        <Enabled>True</Enabled>
-                
-        <FindWhat>기름</FindWhat>
-                
-        <ReplaceWith>오일</ReplaceWith>
-                
-        <SearchType>RegularExpression</SearchType>
-                
-        <Description>ㅇ - 오일</Description>
-              
-      </MultipleSearchAndReplaceItem>
-            
-      <MultipleSearchAndReplaceItem>
-                
-        <Enabled>True</Enabled>
-                
-        <FindWhat>야다</FindWhat>
-                
-        <ReplaceWith>싫어</ReplaceWith>
-                
-        <SearchType>RegularExpression</SearchType>
-                
-        <Description>ㅅ - 싫어</Description>
+        <Description>ㅇ - 유륜</Description>
               
       </MultipleSearchAndReplaceItem>
           
