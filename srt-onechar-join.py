@@ -4,7 +4,7 @@ import shutil
 from pathlib import Path
 
 def remove_little_rest_phrases(line: str) -> str:
-    pattern = r'(\s)?少(\s)?し(\s)?休.+[\.。\,\?]{1,}'
+    pattern = r'(\s)?少(\s)?し(\s)?休[^\.。\,\?]{1,}[\.。\,\?]{1,}'
     return re.sub(pattern, '', line)
 
 def merge_single_char_captions(srt_content: str) -> str:
