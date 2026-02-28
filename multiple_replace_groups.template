@@ -2,6 +2,108 @@
 <Settings>
   <MultipleSearchAndReplaceList>
     <Group>
+      <Name>0.일본어환각제거</Name>
+      <Enabled>False</Enabled>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>そして 戻ってきます[\.\s。]{1,}</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>そして戻ってきます[\.\s。]{1,}</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>少 し 休 憩してください[\.\s。]{1,}</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>少 し 休憩してください[\.\s。]{1,}</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>少 し休憩してください[\.\s。]{1,}</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>少し 休 憩してください[\.\s。]{1,}</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>少し休 憩 してください[\.\s。]{1,}</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>少し休憩してください[\.\s。]{1,}</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>ご視聴ありがとうございました[\.\s。]{1,}</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>どこにいるかな[\?\.\s。]{1,}</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>私は何をしましたか[\?\.\s。]{1,}</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>私はどこにいるでしょうか[\?\.\s。]{1,}</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>もう一度休憩してください[\?\.\s。]{1,}</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>おやすみました[\?\.\s。]{1,}</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </MultipleSearchAndReplaceItem>
+    </Group>
+    <Group>
       <Name>1.전처리</Name>
       <Enabled>True</Enabled>
     </Group>
@@ -915,6 +1017,13 @@
         <SearchType>RegularExpression</SearchType>
         <Description />
       </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>이봐요(?:[\,\.]+)?(\s)?</FindWhat>
+        <ReplaceWith />
+        <SearchType>RegularExpression</SearchType>
+        <Description />
+      </MultipleSearchAndReplaceItem>
     </Group>
     <Group>
       <Name>2.변환</Name>
@@ -950,10 +1059,24 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>가\?</FindWhat>
+        <ReplaceWith>가요?</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㄱ - 가요?</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>잠들 것|일어날 것</FindWhat>
         <ReplaceWith>갈 것</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㄱ - 갈 것</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>한꺼번에\.</FindWhat>
+        <ReplaceWith>같이.</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㄱ - 같이.</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -1111,6 +1234,13 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>가로지르고</FindWhat>
+        <ReplaceWith>닿고</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㄷ - 닿고</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>(바이!|야바아|야비하다!|야바\.|^안 되겠다\.)</FindWhat>
         <ReplaceWith>대박.</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
@@ -1139,6 +1269,13 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>삐걱거리는</FindWhat>
+        <ReplaceWith>딸치는</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㄷ - 딸치는</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>肌</FindWhat>
         <ReplaceWith>또 </ReplaceWith>
         <SearchType>RegularExpression</SearchType>
@@ -1146,17 +1283,10 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>가\?</FindWhat>
-        <ReplaceWith>가요?</ReplaceWith>
+        <FindWhat>뻣뻣</FindWhat>
+        <ReplaceWith>딱딱</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
-        <Description>ㄱ - 가요?</Description>
-      </MultipleSearchAndReplaceItem>
-      <MultipleSearchAndReplaceItem>
-        <Enabled>True</Enabled>
-        <FindWhat>삐걱거리는</FindWhat>
-        <ReplaceWith>딸치는</ReplaceWith>
-        <SearchType>RegularExpression</SearchType>
-        <Description>ㄷ - 딸치는</Description>
+        <Description>ㄷ - 딱딱</Description>
       </MultipleSearchAndReplaceItem>
     </Group>
     <Group>
@@ -1185,10 +1315,17 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>미인약|미학|빌(?!려)</FindWhat>
+        <FindWhat>미인약|미학|빌(?!려|렸)</FindWhat>
         <ReplaceWith>미약</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅁ - 미약</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>받으면</FindWhat>
+        <ReplaceWith>박으면</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅂ - 박으면</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -1241,10 +1378,17 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>마크|망고|맨크|마이크</FindWhat>
+        <FindWhat>강아지|턱|여보,|마크|망고|맨크|마이크|만코</FindWhat>
         <ReplaceWith>보지</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅂ - 보지</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>보지을</FindWhat>
+        <ReplaceWith>보지를</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅂ - 보지를</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -1297,7 +1441,7 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>독설을</FindWhat>
+        <FindWhat>독설을|뷰뷰가</FindWhat>
         <ReplaceWith>뷰릇뷰릇</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅂ - 뷰릇뷰릇</Description>
@@ -1339,7 +1483,7 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>끼워도|핥아도</FindWhat>
+        <FindWhat>끼워도|핥아도|마셔도</FindWhat>
         <ReplaceWith>빨아도</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅂ - 빨아도</Description>
@@ -1395,10 +1539,24 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>프라모델</FindWhat>
+        <ReplaceWith>속옷</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅅ - 속옷</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>어깨를 으쓱하겠</FindWhat>
         <ReplaceWith>실례하겠</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅅ - 실례하겠</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>야다</FindWhat>
+        <ReplaceWith>싫어</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅅ - 싫어</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -1409,7 +1567,7 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>퍼붓고</FindWhat>
+        <FindWhat>퍼붓고|뼈를 벗기고</FindWhat>
         <ReplaceWith>싸고</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅅ - 싸고</Description>
@@ -1444,10 +1602,24 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>\s내지\s</FindWhat>
+        <ReplaceWith> 싸지 </ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅅ - 싸지</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>큰 거(?&gt;!시)</FindWhat>
         <ReplaceWith>싼 거</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅅ - 싼 거</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>\s꺼낸\s지\s</FindWhat>
+        <ReplaceWith> 싼 지</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅅ - 싼 지</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -1458,7 +1630,7 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>내놨더니</FindWhat>
+        <FindWhat>내놨더니|시작했는데도|사진을 찍고 있는데(도)?</FindWhat>
         <ReplaceWith>쌌는데도</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅅ - 쌌는데도</Description>
@@ -1521,7 +1693,7 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>버리고</FindWhat>
+        <FindWhat>(?&lt;!벗겨|가)버리고</FindWhat>
         <ReplaceWith>알면서도</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅇ - 알면서도</Description>
@@ -1539,6 +1711,20 @@
         <ReplaceWith>야하지</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅇ - 야하지</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>헤치 </FindWhat>
+        <ReplaceWith>야한 </ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅇ - 야한</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>에치</FindWhat>
+        <ReplaceWith>야한 거</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅇ - 야한 거</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -1619,7 +1805,14 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>삐끗삐끗|피코리코(?:라고)?|삐걱삐걱</FindWhat>
+        <FindWhat>기름</FindWhat>
+        <ReplaceWith>오일</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅇ - 오일</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>겁먹은\.|삐끗삐끗|피코리코(?:라고)?|삐걱삐걱</FindWhat>
         <ReplaceWith>움찔움찔</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅇ - 움찔움찔</Description>
@@ -1633,10 +1826,24 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>겁먹고</FindWhat>
+        <ReplaceWith>움찔움찔거리고</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅇ - 움찔움찔거리고</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>겁먹었</FindWhat>
         <ReplaceWith>움찔움찔했</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅇ - 움찔움찔했</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>입륜</FindWhat>
+        <ReplaceWith>유륜</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅇ - 유륜</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -1652,34 +1859,13 @@
         <SearchType>RegularExpression</SearchType>
         <Description>ㅇ - 입 안에</Description>
       </MultipleSearchAndReplaceItem>
-      <MultipleSearchAndReplaceItem>
-        <Enabled>True</Enabled>
-        <FindWhat>\s내지\s</FindWhat>
-        <ReplaceWith> 싸지 </ReplaceWith>
-        <SearchType>RegularExpression</SearchType>
-        <Description>ㅅ - 싸지</Description>
-      </MultipleSearchAndReplaceItem>
-      <MultipleSearchAndReplaceItem>
-        <Enabled>True</Enabled>
-        <FindWhat>겁먹고</FindWhat>
-        <ReplaceWith>움찔움찔거리고</ReplaceWith>
-        <SearchType>RegularExpression</SearchType>
-        <Description>ㅇ - 움찔움찔거리고</Description>
-      </MultipleSearchAndReplaceItem>
-      <MultipleSearchAndReplaceItem>
-        <Enabled>True</Enabled>
-        <FindWhat>기름</FindWhat>
-        <ReplaceWith>오일</ReplaceWith>
-        <SearchType>RegularExpression</SearchType>
-        <Description>ㅇ - 오일</Description>
-      </MultipleSearchAndReplaceItem>
     </Group>
     <Group>
       <Name>2-1-3.ㅈㅊㅋㅌ</Name>
       <Enabled>True</Enabled>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>팅팅|틴틴|진저|찐, 찐,|찡, 찡,|고추|찐따|오마카|고추(?&gt;!장)|첸첸|온텐치|체인지|열정(이)?|오치치|거시기|성기|징징(?&gt;!거)|포키|할아버지</FindWhat>
+        <FindWhat>진진|전선|알림|당근|낑낑|버섯|팅팅|틴틴|진저|찐, 찐,|찡, 찡,|고추|찐따|오마카|고추(?&gt;!장)|첸첸|온텐치|체인지|열정(이)?|오치치|거시기|성기|징징(?&gt;!거)|포키|할아버지</FindWhat>
         <ReplaceWith>자지</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅈ - 자지</Description>
@@ -1690,6 +1876,13 @@
         <ReplaceWith>자지가</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅈ - 자지가</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>자지을</FindWhat>
+        <ReplaceWith>자지를</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅈ - 자지를</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -1735,17 +1928,24 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>마음속에|손자|生死</FindWhat>
+        <FindWhat>전사|마음속에|손자|生死|정신|정지</FindWhat>
         <ReplaceWith>정자</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅈ - 정자</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>징크스|집을|젖먹이|트레이처|턱(?&gt;!턱)|치크베|뺨</FindWhat>
+        <FindWhat>치크레|치쿠비|손목|목(?&gt;!소)|곰팡이|징크스|집을|젖먹이|트레이처|턱(?&gt;!턱)|치크베|뺨</FindWhat>
         <ReplaceWith>젖꼭지</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅈ - 젖꼭지</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>목이</FindWhat>
+        <ReplaceWith>젖꼭지가</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅈ - 젖꼭지가</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -1791,7 +1991,7 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>차구차구(?:가)?|구찌</FindWhat>
+        <FindWhat>차구차구(?:가)?|구찌|びしょびしょ</FindWhat>
         <ReplaceWith>질척질척</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅈ - 질척질척</Description>
@@ -1823,6 +2023,13 @@
         <ReplaceWith>찌릿찌릿</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅈ - 찌릿찌릿</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>고유해</FindWhat>
+        <ReplaceWith>찐해</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅈ - 찐해</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -1900,6 +2107,13 @@
         <ReplaceWith>콘돔</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅋ - 콘돔</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>쿵쾅</FindWhat>
+        <ReplaceWith>쿵</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅋ - 쿵</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -2200,7 +2414,7 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>(기분 나쁘다|가지고 있으면 좋다)([\.\?])?</FindWhat>
+        <FindWhat>(숨통이 트인다|기분 나쁘다|가지고 있으면 좋다)([\.\?])?</FindWhat>
         <ReplaceWith>기분 좋다$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㄱ - 기분 좋다2</Description>
@@ -2260,6 +2474,13 @@
         <ReplaceWith>느끼고 있습니까?</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㄴ - 느끼고 있습니까</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>(뻑뻑하다|뻣뻣하다)([\.\?])?</FindWhat>
+        <ReplaceWith>단단하다$2</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㄷ - 단단하다</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -2464,6 +2685,20 @@
         <SearchType>RegularExpression</SearchType>
         <Description>ㅎ - 힙듬니까</Description>
       </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>세리머니를 한다</FindWhat>
+        <ReplaceWith>정액을 싼다</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅈ - 정액을 싼다</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>(말해버렸다)([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <ReplaceWith>가버렸다$2</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㄱ - 가버렸다</Description>
+      </MultipleSearchAndReplaceItem>
     </Group>
     <Group>
       <Name>2-3-2.그 외 변환</Name>
@@ -2481,6 +2716,13 @@
         <ReplaceWith>가버려요</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㄱ - 가버려요</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>구사구타이([\.\?])?</FindWhat>
+        <ReplaceWith>간지러워요$1</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㄱ - 간지러워요</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -2523,6 +2765,27 @@
         <ReplaceWith>들리나요$1</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㄷ - 들리나요</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>을 소개합니다([\.\?])</FindWhat>
+        <ReplaceWith> 들어오세요$1</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㄷ - 들어오세요</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>열려있다([\.\?])</FindWhat>
+        <ReplaceWith> 들어왔어요$1</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㄷ - 들어왔어요</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>많았어요</FindWhat>
+        <ReplaceWith>뜨거워요</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㄷ - 뜨거워요</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -2575,7 +2838,7 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>(봐라|보자)([\.\?])?</FindWhat>
+        <FindWhat>(봐라|보자(?&gt;!고))([\.\?])?</FindWhat>
         <ReplaceWith>봐주세요$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅂ - 봐주세요</Description>
@@ -2673,6 +2936,13 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>きょうず</FindWhat>
+        <ReplaceWith>잘하네요</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅈ - 잘하네요</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>기다리고 있어요\!</FindWhat>
         <ReplaceWith>잠깐만요!</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
@@ -2698,6 +2968,13 @@
         <ReplaceWith>좋은 자지네요</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅈ - 좋은 자지네요</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>준비된 만두([\.\?])</FindWhat>
+        <ReplaceWith>준비 됐나요$1</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅈ - 준비 됐나요</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -2736,6 +3013,13 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>할 것인가([\.\?])</FindWhat>
+        <ReplaceWith>할래요$1</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅎ - 할래요</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>알고\!</FindWhat>
         <ReplaceWith>해!</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
@@ -2747,41 +3031,6 @@
         <ReplaceWith>해봐요$1</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅎ - 해봐요</Description>
-      </MultipleSearchAndReplaceItem>
-      <MultipleSearchAndReplaceItem>
-        <Enabled>True</Enabled>
-        <FindWhat>할 것인가([\.\?])</FindWhat>
-        <ReplaceWith>할래요$1</ReplaceWith>
-        <SearchType>RegularExpression</SearchType>
-        <Description>ㅎ - 할래요</Description>
-      </MultipleSearchAndReplaceItem>
-      <MultipleSearchAndReplaceItem>
-        <Enabled>True</Enabled>
-        <FindWhat>많았어요</FindWhat>
-        <ReplaceWith>뜨거워요</ReplaceWith>
-        <SearchType>RegularExpression</SearchType>
-        <Description>ㄷ - 뜨거워요</Description>
-      </MultipleSearchAndReplaceItem>
-      <MultipleSearchAndReplaceItem>
-        <Enabled>True</Enabled>
-        <FindWhat>준비된 만두([\.\?])</FindWhat>
-        <ReplaceWith>준비 됐나요$1</ReplaceWith>
-        <SearchType>RegularExpression</SearchType>
-        <Description>ㅈ - 준비 됐나요</Description>
-      </MultipleSearchAndReplaceItem>
-      <MultipleSearchAndReplaceItem>
-        <Enabled>True</Enabled>
-        <FindWhat>きょうず</FindWhat>
-        <ReplaceWith>잘하네요</ReplaceWith>
-        <SearchType>RegularExpression</SearchType>
-        <Description>ㅈ - 잘하네요</Description>
-      </MultipleSearchAndReplaceItem>
-      <MultipleSearchAndReplaceItem>
-        <Enabled>True</Enabled>
-        <FindWhat>구사구타이([\.\?])?</FindWhat>
-        <ReplaceWith>간지러워요$1</ReplaceWith>
-        <SearchType>RegularExpression</SearchType>
-        <Description>ㄱ - 간지러워요</Description>
       </MultipleSearchAndReplaceItem>
     </Group>
     <Group>
@@ -2870,6 +3119,13 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>(배부릅)니까([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <ReplaceWith>배부르세요$2</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>니까 - 릅니까 =&gt; 르세요</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>(즐겁|않|있|럽)습니까([\.\?])?(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>$1나요$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
@@ -2947,10 +3203,24 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>(드)리겠습니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <ReplaceWith>$1릴께요$2</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>니다 - 습니다 - 리겠습니다 =&gt; 릴께요</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>(받|살)았습니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>$1았어요$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>니다 - 습니다 - 았습니다 =&gt; 았어요</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>(되)었습니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <ReplaceWith>됐어요$2</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>니다 - 습니다 - 었습니다 =&gt; 됐어요</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -2961,6 +3231,13 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>(귀엽)습니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <ReplaceWith>$1네요$2</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>니다 - 습니다 =&gt; 네요</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>(있)습니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>$1어요$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
@@ -2968,7 +3245,7 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>(했|좋겠|기뻤)습니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <FindWhat>(나왔|했|좋겠|기뻤)습니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>$1어요$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>니다 - 습니다 =&gt; 어요</Description>
@@ -3010,7 +3287,7 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>(위험|대단)합니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <FindWhat>(건강|위험|대단)합니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>$1하네요$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>니다 - 합니다 =&gt; 하네요</Description>
@@ -3021,6 +3298,13 @@
         <ReplaceWith>$1해요$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>니다 - 합니다 =&gt; 해요</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>(다)닌다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <ReplaceWith>$1녀요$2</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>닌다 - 닌다 =&gt; 녀요</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -3136,6 +3420,13 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>(빌)렸다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <ReplaceWith>$1렸어요$2</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>렸다 - 렸다 =&gt; 렸어요</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>(되어)버렸다([\.\?])?(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>$1버렸네요$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
@@ -3143,14 +3434,14 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>(주문해)버렸다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <FindWhat>(가|주문해)버렸다([\.\?])?(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>$1버렸어요$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>렸다 - 버렸다 =&gt; 버렸어요</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>(\s|되어|변해)버린다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <FindWhat>(마셔|가|\s|되어|변해)버린다([\.\?])?(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>$1버려요$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>린다 - 버린다 =&gt; 버려요</Description>
@@ -3315,27 +3606,6 @@
         <ReplaceWith>$1혀줘요$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>힌다 - 힌다 =&gt; 혀줘요</Description>
-      </MultipleSearchAndReplaceItem>
-      <MultipleSearchAndReplaceItem>
-        <Enabled>True</Enabled>
-        <FindWhat>(되)었습니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
-        <ReplaceWith>됐어요$2</ReplaceWith>
-        <SearchType>RegularExpression</SearchType>
-        <Description>니다 - 습니다 - 었습니다 =&gt; 됐어요</Description>
-      </MultipleSearchAndReplaceItem>
-      <MultipleSearchAndReplaceItem>
-        <Enabled>True</Enabled>
-        <FindWhat>(배부릅)니까([\.\?])?(?!고|던|면|든|는)</FindWhat>
-        <ReplaceWith>배부르세요$2</ReplaceWith>
-        <SearchType>RegularExpression</SearchType>
-        <Description>니까 - 릅니까 =&gt; 르세요</Description>
-      </MultipleSearchAndReplaceItem>
-      <MultipleSearchAndReplaceItem>
-        <Enabled>True</Enabled>
-        <FindWhat>(다)닌다([\.\?])?(?!고|던|면|든|는)</FindWhat>
-        <ReplaceWith>$1녀요$2</ReplaceWith>
-        <SearchType>RegularExpression</SearchType>
-        <Description>닌다 - 닌다 =&gt; 녀요</Description>
       </MultipleSearchAndReplaceItem>
     </Group>
     <Group>
@@ -3553,6 +3823,13 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>(배부릅)니까([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <ReplaceWith>배불러$2</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>니까 - 릅니까 =&gt; 불러</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>(즐겁습니까)([\.\?])?(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>워$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
@@ -3651,7 +3928,14 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>(있|했|좋겠|기뻤)습니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <FindWhat>(귀엽)습니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <ReplaceWith>$1네$2</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>니다 - 습니다 =&gt; 네</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>(나왔|있|했|좋겠|기뻤)습니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>$1어$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>니다 - 습니다 =&gt; 어</Description>
@@ -3693,10 +3977,24 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>(건강)합니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <ReplaceWith>$1하네$2</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>니다 - 합니다 =&gt; 하네</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>(시작|행복|좋아|위험|대단|사랑|부탁)합니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>$1해$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>니다 - 합니다 =&gt; 해</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>(다)닌다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <ReplaceWith>$1녀$2</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>닌다 - 닌다 =&gt; 녀</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -3798,6 +4096,13 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>(\s[ㄱ-ㅎㅏ-ㅣ가-힣]{1,})래요([\.\?])?</FindWhat>
+        <ReplaceWith>$1래$2</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>래요 - 래요 =&gt; 래</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>(부끄|부드)럽다([\.\?])?(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>$1러워$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
@@ -3833,14 +4138,14 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>(주문해)버렸다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <FindWhat>(가|주문해)버렸다([\.\?])?(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>$1버렸어$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>렸다 - 버렸다 =&gt; 버렸어</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>(\s|되어|변해)버린다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <FindWhat>(마셔|가|\s|되어|변해)버린다([\.\?])?(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>$1버려$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>린다 - 버린다 =&gt; 버려</Description>
@@ -4183,24 +4488,17 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>(\s[ㄱ-ㅎㅏ-ㅣ가-힣]{1,})래요([\.\?])?</FindWhat>
-        <ReplaceWith>$1래$2</ReplaceWith>
+        <FindWhat>(드)리겠습니다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <ReplaceWith>$1릴께$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
-        <Description>래요 - 래요 =&gt; 래</Description>
+        <Description>니다 - 습니다 - 리겠습니다 =&gt; 릴께</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>(배부릅)니까([\.\?])?(?!고|던|면|든|는)</FindWhat>
-        <ReplaceWith>배불러$2</ReplaceWith>
+        <FindWhat>(빌)렸다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <ReplaceWith>$1렸어$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
-        <Description>니까 - 릅니까 =&gt; 불러</Description>
-      </MultipleSearchAndReplaceItem>
-      <MultipleSearchAndReplaceItem>
-        <Enabled>True</Enabled>
-        <FindWhat>(다)닌다([\.\?])?(?!고|던|면|든|는)</FindWhat>
-        <ReplaceWith>$1녀$2</ReplaceWith>
-        <SearchType>RegularExpression</SearchType>
-        <Description>닌다 - 닌다 =&gt; 녀</Description>
+        <Description>렸다 - 렸다 =&gt; 렸어</Description>
       </MultipleSearchAndReplaceItem>
     </Group>
     <Group>
@@ -4243,14 +4541,14 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>(딱딱한)([\!\.\?])(?!고|던|면|든|는)</FindWhat>
+        <FindWhat>(단단히|딱딱한)([\!\.\?])(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>단단해$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㄷ - 단단해</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>(뜨거운)([\!\.\?]+)(?!고|던|면|든|는)</FindWhat>
+        <FindWhat>(뜨겁게|뜨거운)([\!\.\?]+)(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>뜨거워$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㄷ - 뜨거워</Description>
@@ -4318,6 +4616,20 @@
         <SearchType>RegularExpression</SearchType>
         <Description>ㅎ - 하고 싶어</Description>
       </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>(귀여운)([\!\.\?])(?!고|던|면|든|는)</FindWhat>
+        <ReplaceWith>귀여워$2</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㄱ - 귀여워</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>(싶어지는)([\!\.\?]+)(?!고|던|면|든|는)</FindWhat>
+        <ReplaceWith>싶어$2</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅅ - 싶어</Description>
+      </MultipleSearchAndReplaceItem>
     </Group>
     <Group>
       <Name>3.후처리</Name>
@@ -4375,6 +4687,28 @@
         <ReplaceWith />
         <SearchType>RegularExpression</SearchType>
         <Description>일본어만 있는 거 삭제</Description>
+      </MultipleSearchAndReplaceItem>
+    </Group>
+    <Group>
+      <Name>4.작업예정</Name>
+      <Enabled>True</Enabled>
+    </Group>
+    <Group>
+      <Name>4-1.작업예정 표시</Name>
+      <Enabled>True</Enabled>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>\s(.+)(다)(?!~)([,\.\?])</FindWhat>
+        <ReplaceWith> $1$2~$3</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>적용안된 다뒤에 '~' 붙여서 나중에 적용예정이라는 걸 표시</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>\s(.+)(까)(?!~)([\.\?])</FindWhat>
+        <ReplaceWith> $1$2~$3</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>적용안된 다/까 뒤에 '~' 붙여서 나중에 적용예정이라는 걸 표시</Description>
       </MultipleSearchAndReplaceItem>
     </Group>
   </MultipleSearchAndReplaceList>
