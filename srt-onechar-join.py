@@ -3,6 +3,12 @@ import sys
 import shutil
 from pathlib import Path
 
+def get_srt_files(folder_path: Path) -> list[Path]:
+    return [
+        p for p in folder_path.rglob("*.srt")
+        if p.suffix == ".srt" and not p.stem.endswith(".ko")
+    ]
+
 def remove_little_rest_phrases(line: str) -> str:
     pattern = r'(\s)?少(\s)?し(\s)?休[^\.。\,\?]{1,}[\.。\,\?]{1,}'
     return re.sub(pattern, '', line)
@@ -189,8 +195,8 @@ def main():
         print(f"오류: {folder_path} 는 존재하지 않거나 폴더가 아닙니다.")
         sys.exit(1)
 
-    # 해당 폴더 안 .srt 파일 모두 찾기 (재귀X, 현재 폴더만)
-    srt_files = list(folder_path.rglob("*.srt"))
+    # 해당 폴더 안 .srt 파일 모두 찾기 (*.ko.srt파일 제외)
+    srt_files = get_srt_files(folder_path)
 
     if not srt_files:
         print("해당 폴더에 .srt 파일이 하나도 없습니다.")
