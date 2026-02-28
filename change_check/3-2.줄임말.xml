@@ -11,6 +11,20 @@
                 
         <Enabled>True</Enabled>
                 
+        <FindWhat>미쳐버릴</FindWhat>
+                
+        <ReplaceWith>미칠</ReplaceWith>
+                
+        <SearchType>RegularExpression</SearchType>
+                
+        <Description>ㅁ - 미칠</Description>
+              
+      </MultipleSearchAndReplaceItem>
+            
+      <MultipleSearchAndReplaceItem>
+                
+        <Enabled>True</Enabled>
+                
         <FindWhat>(기 때문에)</FindWhat>
                 
         <ReplaceWith>니까</ReplaceWith>
@@ -22,6 +36,6 @@
       </MultipleSearchAndReplaceItem>
           
     </Group>
-      
+        
   </MultipleSearchAndReplaceList>
 </Settings>
