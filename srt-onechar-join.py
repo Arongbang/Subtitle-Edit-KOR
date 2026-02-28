@@ -3,6 +3,9 @@ import sys
 import shutil
 from pathlib import Path
 
+def remove_little_rest_phrases(line: str) -> str:
+    pattern = r'(\s)?少(\s)?し(\s)?休.+[\.。\,\?]{1,}'
+    return re.sub(pattern, '', line)
 
 def merge_single_char_captions(srt_content: str) -> str:
     """
@@ -26,8 +29,6 @@ def merge_single_char_captions(srt_content: str) -> str:
     current_block = []
 
     for line in lines:
-        if line == '68':
-            a = 0
         stripped = line.strip()
         if not stripped:
             # 빈 줄 → 이전 블록 종료
@@ -58,6 +59,10 @@ def merge_single_char_captions(srt_content: str) -> str:
         num = block[0]          # 자막 번호 (문자열)
         time_line = block[1]    # 시간줄 ex) 00:01:23,450 --> 00:01:24,120
         text_parts = block[2:]  # 텍스트 부분 (1줄 이상 가능)
+
+        #휴식어쩌고 제거
+        for j in range(2, len(block)):
+            block[j] = remove_little_rest_phrases(block[j])
 
         # 텍스트 합치고 앞뒤 공백 제거
         text = ' '.join(text_parts).strip()
