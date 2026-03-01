@@ -256,7 +256,27 @@ def process_srt_file(filepath: Path):
     if output_path.exists():
         print(f"  → 이미 {output_path.name} 파일이 존재합니다. 스킵.")
         return
+    
+    # DeepL API 한도 확인
+    usage = translator.get_usage()
 
+    if usage.any_limit_reached:
+        print("\n!!! DeepL API 한도 초과 !!!")
+        print("이번 달 번역 한도를 모두 사용했습니다.")
+        sys.exit(1)
+
+    # DeepL API 잔여량 확인
+    if usage.character.valid:
+        used = usage.character.count
+        limit = usage.character.limit
+        remaining = limit - used
+
+        print(f"  현재 사용: {used:,} / {limit:,} 자  (남음: {remaining:,} 자)")
+    else:
+        print("  경고: character 사용량 정보가 유효하지 않습니다.")
+        print("  → 무료 플랜이 아닌 경우일 수 있으니 한도 체크 없이 진행합니다.")
+
+    #작업시작
     try:
         # 1. 원본 백업 (메타데이터까지 복사)
         shutil.copy2(filepath, backup_path)
