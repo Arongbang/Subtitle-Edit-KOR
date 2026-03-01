@@ -31,7 +31,7 @@ try:
     translator = deepl.Translator(DEEPL_API_KEY)
     
     # 무료 계정(api-free.deepl.com) 사용하는 경우 아래 주석 해제
-    # translator = deepl.Translator(DEEPL_API_KEY, server_url="https://api-free.deepl.com")
+    translator = deepl.Translator(DEEPL_API_KEY, server_url="https://api-free.deepl.com")
     
     print("DeepL 초기화 성공")
 except Exception as e:
