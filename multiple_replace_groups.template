@@ -1378,7 +1378,7 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>강아지|턱|여보,|마크|망고|맨크|마이크|만코</FindWhat>
+        <FindWhat>음부|강아지|턱|여보,|마크|망고|맨크|마이크|만코</FindWhat>
         <ReplaceWith>보지</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅂ - 보지</Description>
@@ -1392,7 +1392,7 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>폭포 냄새</FindWhat>
+        <FindWhat>폭포 냄새|사랑 액</FindWhat>
         <ReplaceWith>보짓물</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅂ - 보짓물</Description>
@@ -1928,10 +1928,17 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>전사|마음속에|손자|生死|정신|정지</FindWhat>
+        <FindWhat>심문|전사|마음속에|손자|生死|정신|정지</FindWhat>
         <ReplaceWith>정자</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅈ - 정자</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>정자이</FindWhat>
+        <ReplaceWith>정자가</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅈ - 정자가</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -2061,6 +2068,13 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>최소\.</FindWhat>
+        <ReplaceWith>최악.</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅊ - 최악.</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>벨로벨로</FindWhat>
         <ReplaceWith>츄릅츄릅</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
@@ -2117,10 +2131,17 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>그리트리스</FindWhat>
+        <FindWhat>그리트리스|음핵</FindWhat>
         <ReplaceWith>클리</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅋ - 클리</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>클리이</FindWhat>
+        <ReplaceWith>클리가</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅋ - 클리가</Description>
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
@@ -2177,6 +2198,13 @@
         <ReplaceWith>키스할 수</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>ㅋ - 키스할 수</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>씹어주세</FindWhat>
+        <ReplaceWith>키스해주세</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅋ - 키스해주세</Description>
       </MultipleSearchAndReplaceItem>
     </Group>
     <Group>
@@ -3032,6 +3060,13 @@
         <SearchType>RegularExpression</SearchType>
         <Description>ㅎ - 해봐요</Description>
       </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
+        <FindWhat>다사\.</FindWhat>
+        <ReplaceWith>멍청해.</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㅁ - 멍청해</Description>
+      </MultipleSearchAndReplaceItem>
     </Group>
     <Group>
       <Name>2-4.존댓말/반말 변환</Name>
@@ -3329,7 +3364,7 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>(같|좋|괜찮)다([\.\?])?(?!고|던|면|든|는)</FindWhat>
+        <FindWhat>(않|같|좋|괜찮)다([\.\?])?(?!고|던|면|든|는)</FindWhat>
         <ReplaceWith>$1아요$2</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
         <Description>다 - 다 =&gt; 아요</Description>
@@ -4651,6 +4686,13 @@
       <Enabled>True</Enabled>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
+        <FindWhat>(기 때문에)</FindWhat>
+        <ReplaceWith>니까</ReplaceWith>
+        <SearchType>RegularExpression</SearchType>
+        <Description>ㄴ - 니까</Description>
+      </MultipleSearchAndReplaceItem>
+      <MultipleSearchAndReplaceItem>
+        <Enabled>True</Enabled>
         <FindWhat>미쳐버릴</FindWhat>
         <ReplaceWith>미칠</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
@@ -4658,10 +4700,10 @@
       </MultipleSearchAndReplaceItem>
       <MultipleSearchAndReplaceItem>
         <Enabled>True</Enabled>
-        <FindWhat>(기 때문에)</FindWhat>
-        <ReplaceWith>니까</ReplaceWith>
+        <FindWhat>어떻게 생각해서</FindWhat>
+        <ReplaceWith>어떻게</ReplaceWith>
         <SearchType>RegularExpression</SearchType>
-        <Description>ㄴ - 니까</Description>
+        <Description>ㅇ - 어떻게</Description>
       </MultipleSearchAndReplaceItem>
     </Group>
     <Group>
